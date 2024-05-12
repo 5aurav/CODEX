@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            overflow-x: hidden;
+        }
+        body{
+            background-image: url("bg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: none;
+        }
+.list{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.langheading a{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.langheading a:hover{
+    text-decoration: underline;
+}
+.lang p{
+    font-size: 17px;
+}
+.btn{
+     border-radius: 5px;
+}
+
+    </style>
+    <title>Languages</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            CODEX
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+               <li><a href="index.html" class="hover">Home</a></li>
+               <li><a href="timeline.html" class="hover">Timeline</a></li>
+               <li><a href="languages.html" class="hover">Languages</a></li>
+               <li><a href="about.html" class="hover">About us</a></li>
+               <li><a href="Contactus.html" class="hover">Contact us</a></li>
+               <li><a href="login.html" class="hover">Login</a></li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+    <div class="list">
+        <ul>
+            <li id="HTML" class="lang"><h1 class="langheading"><a href="HTML.html" class="btn">HTML</a></h1><br><p>HTML (Hypertext Markup Language) is the standard language used to create and design web pages on the internet. It provides a structure for web documents by using a system of tags and attributes to define elements such as headings, paragraphs, images, links, forms, and more. HTML documents are primarily text-based files that can be created and edited using simple text editors.</p></li>
+            <li id="CSS" class="lang"><h1 class="langheading"><a href="CSS.html" class="btn">CSS</a></h1><br><p>CSS (Cascading Style Sheets) is a style sheet language used to define the presentation and layout of HTML documents. It enables web developers to control the appearance of web pages, including elements such as fonts, colors, spacing, and positioning. By separating the presentation from the content of a web page, CSS allows for greater flexibility and consistency across a website.</p></li>
+            <li id="C" class="lang"><h1 class="langheading"><a href="C.html" class="btn">C</a></h1><br><p>C is a high-level programming language developed in the 1970s. Known for its efficiency, portability, and versatility, C has had a influence on programming languages and systems development. It is a structured approach to programming with features like functions,loops,and conditional statements, making it suitable for both system-level programming and application development.</p></li>
+            <li id="C++" class="lang"><h1 class="langheading"><a href="C++.html" class="btn">C++</a></h1><br><p>C++ is a powerful and versatile programming languagederived from C. Developed in the 1980s, it combines the features of both procedural and object-oriented programming paradigms. C++  is suitable for building complex and scalable software systems.It provides a balance between low-level hardware access and high-level abstractions, making it popular for system software, game development, and large-scale applications.</p></li>
+            <li id="Javascript" class="lang"><h1 class="langheading"><a href="JAVASCRIPT.html" class="btn">JAVASCRIPT</a></h1><br><p>JavaScript is a versatile programming language primarily used for adding interactivity and dynamic behavior to websites.JavaScript allows developers to manipulate the content of web pages, respond to user actions, and communicate with servers to update content without reloading the entire page.JavaScript remains one of the cornerstones of modern web development.</p></li>
+            <li id="Java" class="lang"><h1 class="langheading"><a href="JAVA.html" class="btn">JAVA</a></h1><br><p>Java is a popular programming language known for its platform independence and versatility.Java is widely used in enterprise applications, web development, mobile app development (particularly Android), and large-scale distributed systems. Its emphasis on security and robustness makes it a trusted choice for building diverse software solutions.It has features like portability, security, and a vast ecosystem of libraries and frameworks.</p></li>
+        </ul>
+    </div>
+</body>
+</html>

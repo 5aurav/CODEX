@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        /* Add some basic styling to the form */
+        body {
+            background-image: url("background.png");
+            background-repeat: none;
+            background-position: center;
+            background-size: cover;
+            font-weight: 600;
+        }
+        .justify-content-center{
+            margin-top:120px;
+            height: 400px;
+
+        }
+       .wrapper {
+            background-color:  rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border: 1px solid #000000;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+       .input-box {
+            margin-bottom: 20px;
+        }
+       .input-box input[type="text"],.input-box input[type="password"]{
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+       .input-box i {
+            position: absolute;
+            top: 12px;
+            left: 10px;
+            color: rgb(255, 234, 1);
+        }
+       .remember-forgot {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+       .btn {
+            background-color: rgb(255, 234, 1);
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+       .btn:hover {
+            background-color: #ffd700;
+        }
+       .signup-link {
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-6 col-xs-12 wrapper">
+                <form action="">
+                    <h1 class="text-center">Sign Up</h1>
+                    <div class="form-group input-box">
+                        <input type="text" placeholder="Name" required>
+                        <i class='bx bxs-user-circle' ></i>
+                    </div>
+                    <div class="form-group input-box">
+                        <input type="text" placeholder="Username" required>
+                        <i class='bx bxs-user' ></i>
+                    </div>
+                    <div class="form-group input-box">
+                        <input type="password" placeholder="Password" required>
+                        <i class='bx bxs-lock-alt' ></i>
+                    </div>
+                    <div class="form-group remember-forgot">
+                        <label>
+                            <input type="checkbox">Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-block">Sign Up</button>
+                    <div class="signup-link">
+                        <p class="text-center">Already have an account? <a href="login.html">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
